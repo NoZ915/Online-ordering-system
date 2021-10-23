@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* outline: red solid 1px; */
+}
+body{
+  background-color: #faf5cd;
+}
+
+/*----------header----------*/
+header{
+  padding: 20px 0px;
+  min-width: 900px;
+
+  background-color: #fffef3;
+}
+
+.header_container{
+  margin: 0 auto;
+  width: 900px;
+  text-align-last: justify;
+}
+
+.header_title{
+  display: inline-block;
+  vertical-align: middle;
+}
+.header_title a{
+  display: inline-block;
+  vertical-align: middle;
+}
+.header_title img{
+  vertical-align: middle;
+}
+
+.header_cart{
+  display: inline-block;
+  vertical-align: middle;
+}
+.header_cart i{
+  font-size: 50px;
+  color: #F5B13C;
+}
+.header_cart a{
+  display: inline-block;
+  outline: #F5B13C solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  vertical-align: middle;
+    transition: 0.5s;
+}
+.header_cart a:hover{
+  background-color: #F5B13C;
+  transition: 0.5s;
+}
+.header_cart a:hover i{
+  color: #faf5cd;
+  transition: 0.5s;
+}
+
+/*----------main----------*/
+main{
+  margin: 60px 0;
+  min-width: 900px;
+}
+.main_container{
+  margin: 0 auto;
+  width: 900px;
+}
+.main_container a{
+  display: inline-block;
+  outline: #F5B13C solid 2px;
+  border-radius: 50px;
+  width: 130px;
+  height: 40px;
+  margin-right: 30px;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  color: #F5B13C;
+  line-height: 40px;
+  transition: 0.5s;
+}
+.main_container a:hover{
+  background-color: #F5B13C;
+  color: #faf5cd;
+  transition: 0.5s;
+}
+
+/*----------section----------*/
+section{
+  margin: 60px 0;
+  min-width: 900px;
+}
+.section_container{
+  margin: 0 auto;
+  width: 900px;
+
+  color: #F5B13C;
+}
+.img_container{
+  display: inline-block;
+  margin: 10px;
+
+  background-color: #eee;
+}
+.img_container img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 150px;
+
+  margin: 20px;
+}
+.price_container{
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.price_container h3, h4{
+  color: black;
+  font-weight: 200;
+}
+.price_container button{
+  margin-top: 40px;
+  border: #F5B13C solid 2px;
+  border-radius: 30px;
+  width: 80px;
+  height: 30px;
+
+  font-size: 15px;
+  font-weight: 900;
+  color: #F5B13C;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.price_container button:hover{
+  background-color: #F5B13C;
+  color: #faf5cd;
+  transition: 0.5s;
+}
+
+/* --------footer-------- */
+footer{
+  padding: 50px 0;
+  min-width: 900px;
+
+  background-color: #fffef3;
+}
+.footer_container{
+  display: table;
+
+  margin: 0 auto;
+  width: 900px;
+}
+footer span{
+  display: table-cell;
+  vertical-align: middle;
+
+  font-size: 15px;
+  color: #585858;
+}
+footer ul{
+  float: right;
+}
+footer li{
+  display: inline-block;
+  margin: 0 7px;
+}
+footer a{
+  display: inline-block;
+}
+footer i{
+  font-size: 40px;
+  color: black;
+}
+footer i:hover{
+  font-size: 40px;
+  color: #F5B13C;
+}
