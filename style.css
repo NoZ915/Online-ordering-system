@@ -30,6 +30,7 @@ header{
   vertical-align: middle;
 }
 .header_title img{
+  width: 150px;
   vertical-align: middle;
 }
 
@@ -38,7 +39,7 @@ header{
   vertical-align: middle;
 }
 .header_cart i{
-  font-size: 50px;
+  font-size: 20px;
   color: #F5B13C;
 }
 .header_cart a{
@@ -60,7 +61,7 @@ header{
 
 /*----------main----------*/
 main{
-  margin: 60px 0;
+  margin: 40px 0;
   min-width: 900px;
 }
 .main_container{
@@ -71,16 +72,16 @@ main{
   display: inline-block;
   outline: #F5B13C solid 2px;
   border-radius: 50px;
-  width: 130px;
-  height: 40px;
-  margin-right: 30px;
+  width: 80px;
+  height: 30px;
+  margin-right: 15px;
 
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 900;
   color: #F5B13C;
-  line-height: 40px;
+  line-height: 30px;
   transition: 0.5s;
 }
 .main_container a:hover{
@@ -123,20 +124,24 @@ section{
   color: black;
   font-weight: 200;
 }
-.price_container button{
-  margin-top: 40px;
+.price_container a{
+  display: inline-block;
   border: #F5B13C solid 2px;
   border-radius: 30px;
+  margin-top: 30px;
   width: 80px;
   height: 30px;
 
+  text-align: center;
+  text-decoration: none;
   font-size: 15px;
   font-weight: 900;
+  line-height: 30px;
   color: #F5B13C;
   transition: 0.5s;
   cursor: pointer;
 }
-.price_container button:hover{
+.price_container a:hover{
   background-color: #F5B13C;
   color: #faf5cd;
   transition: 0.5s;
@@ -179,4 +184,24 @@ footer i{
 footer i:hover{
   font-size: 40px;
   color: #F5B13C;
+}
+
+/* --------lightbox-------- */
+.lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000066;
+  z-index: -1;
+  opacity: 0;
+}
+.lightbox:target {
+  z-index: 1;
+  opacity: 1;
+  transition: 0.5s;
 }
